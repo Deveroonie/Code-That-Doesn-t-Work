@@ -1,3 +1,6 @@
+// The following code doesn't work because:
+// "this code doesnt work"
+
 @EventHandler
         public void onSnowballHit(EntityDamageByEntityEvent e) {
             if ((e.getDamager() instanceof Snowball))
